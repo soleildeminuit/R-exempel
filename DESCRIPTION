@@ -1,0 +1,32 @@
+Type: Compendium
+Package: R-exempel
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: R-exempel
+License: What license it uses
+Depends: 
+    areal,
+    dplyr,
+    geojsonio,
+    holepunch,
+    httr,
+    jsonlite,
+    mapview,
+    openxlsx,
+    osmdata,
+    ows4R,
+    purrr,
+    pxweb,
+    sf,
+    stringr,
+    tibble,
+    tidyr,
+    tmap,
+    viridis
+Remotes: 
+    karthik/holepunch,
+    ropengov/pxweb
+Encoding: UTF-8
+LazyData: true
