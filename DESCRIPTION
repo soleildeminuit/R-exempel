@@ -3,10 +3,12 @@ Package: R-exempel
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.1
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+    person("Elias", "Anders", , "anders.elias@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "N/A"))
 Description: R-exempel
-License: What license it uses
+License: MIT + file LICENSE
 Depends: 
+	units,
     areal,
     dplyr,
     geojsonio,
