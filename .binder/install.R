@@ -1,8 +1,9 @@
 install.packages(
-  "areal",
+  "units",
+  "sf",
   "dplyr",
-  "geojsonio",
-  "holepunch",
+  "tidyr",
+  "areal",
   "httr",
   "jsonlite",
   "mapview",
@@ -11,10 +12,8 @@ install.packages(
   "ows4R",
   "purrr",
   "pxweb",
-  "sf",
   "stringr",
   "tibble",
-  "tidyr",
   "tmap",
   "viridis"
 )
